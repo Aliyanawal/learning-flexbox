@@ -1,0 +1,116 @@
+body{
+    font-family: sans-serif;
+    font-weight: 500 700 800;
+    font-family: ;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height: fit-content;
+    width: 50%;
+    box-shadow: 20px;
+    
+   
+    
+
+}
+
+
+
+
+.first{
+    background-color: hsl(234, 85%, 45%);
+    border-radius: 30px;
+    display: flex;
+    
+    flex-direction: column;
+    
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+}
+.circle{
+    margin-top: 10%;
+    align-items: cente;
+    background-color: hsla(256, 72%, 46%, 1);
+
+    width: 50%;
+    border-radius: 50%;
+}
+
+ h1{
+    border: 2px soid red;
+    font-size: 50px;
+}
+.second{
+   
+    height: 85%;
+    padding: 8%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgb(222, 242, 248);
+}
+.inside-second-one p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: hsl(0, 100%, 67%) ;
+
+    
+}
+.inside-second-two p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: hsl(39, 100%, 56%);
+    
+    
+    align-items: center;
+}
+.inside-second-three p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color:hsl(166, 100%, 37%) ;
+}
+.inside-second-four p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color:hsl(234, 85%, 45%)
+    ;
+}
+.test{
+    text-align: left;
+  width: 70%;
+}
+.mark{
+    text-align: right;
+    width: 27%;
+}
+button{
+    margin-top: 20px;
+    width: 100%;
+    background-color:  hsl(224, 30%, 27%);
+    height: 40px;
+    color: white;
+    border-radius: 5rem;
+}
+#afterSummary{
+    padding: 10px;
+}
